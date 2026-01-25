@@ -6,8 +6,6 @@ use App\Http\TempoController;
 use App\Domain\Tempo\Service\CalculadoraTempoRestante;
 use App\Domain\Tempo\Clock\SystemClock;
 
-header('Content-Type: application/json; charset=utf-8');
-
 // Container improvisado apenas para injetar as dependências
 $container = [
     CalculadoraTempoRestante::class => new CalculadoraTempoRestante(

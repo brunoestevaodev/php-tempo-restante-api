@@ -42,7 +42,7 @@ tests/
 ├── Support # Fakes e utilitários de teste
 public/
 └── index.php # Ponto de entrada da aplicação
-``
+```
 
 ## Testes
 
@@ -51,10 +51,8 @@ O projeto possui testes unitários utilizando PHPUnit.
 Para executar os testes:
 
 ```
-
 composer install
 vendor/bin/phpunit
-
 ```
 
 ## Conceitos aplicados
@@ -84,4 +82,3 @@ e boas práticas em PHP.
 Licença
 
 - Projeto livre para estudo.
-```

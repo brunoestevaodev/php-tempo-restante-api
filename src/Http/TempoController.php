@@ -2,7 +2,7 @@
 
 namespace App\Http;
 
-use App\Domain\Tempo\Service\CalculadoraTempoRestante;
+use App\Application\Service\CalculadoraTempoRestante;
 use App\Domain\Tempo\ValueObject\DataFutura;
 
 class TempoController

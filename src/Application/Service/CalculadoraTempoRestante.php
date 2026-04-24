@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Tempo\Service;
+namespace App\Application\Service;
 
 use App\Domain\Tempo\Clock\Clock;
 use App\Domain\Tempo\DTO\TempoRestanteDTO;

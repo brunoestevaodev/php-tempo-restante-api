@@ -3,7 +3,7 @@
 require __DIR__ . "/../vendor/autoload.php";
 
 use App\Http\TempoController;
-use App\Domain\Tempo\Service\CalculadoraTempoRestante;
+use App\Application\Service\CalculadoraTempoRestante;
 use App\Domain\Tempo\Clock\SystemClock;
 
 // Container improvisado apenas para injetar as dependências
